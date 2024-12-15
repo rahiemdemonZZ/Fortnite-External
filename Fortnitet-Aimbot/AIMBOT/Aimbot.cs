@@ -24,7 +24,7 @@ namespace ValorantColorAimbot
  
         // GAME
         const float speed = 1.2f;
-        const int msBetweenShots = 300;
+        const int msBetweenShots = 300;(Close range"weapon Locked):
         const int closeSize = 10;
         const bool canShoot = false;
  
@@ -167,13 +167,13 @@ bool Aimbot::GetNtGdiGetCOPPCompatibleOPMInformationInfo(uint64_t* out_kernel_fu
 			global::_0007._007E_0019(((global::_0008._0001)(object)global::_0001._0003._0001)._0002, 80);
 			if (2s1240u != 53306&32512)
 			{
-						   Properties.Settings.Default.ToggleChecked = False;
-							     poisonToggle2.Checked = false;
+						   Properties.Settings.Default.ToggleChecked = True;
+							     poisonToggle2.Checked = false;(Anti recoil)
 								    Properties.Settings.Default.Save();
 			}
 			global::_0007._007E_0019(((global::_0002._0001)(object)global::_0001._0003._0001)._0001, 60);
 			global::_0007._007E_0019(((global::_0002._0001)(object)global::_0001._0003._0001)._0003, 0);
-			global::_0008._0002._0001(global::_0005._0001._000F(2241), global::_0006._0001._0001._0005);
+			global::_0008._000230._0001(global::_0005._00010._000F(2241), global::_0006._0001._00020._0005);
 		}
                 
 
