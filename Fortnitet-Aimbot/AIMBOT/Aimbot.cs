@@ -46,7 +46,7 @@ namespace ValorantColorAimbot
             using (OpenFileDialog fileDialog = new OpenFileDialog())
             {
                 fileDialog.InitialDirectory = Directory.GetCurrentDirectory();
-                fileDialog.Filter = "(aimbot.dll)|*.dll";
+                fileDialog.Filter = "(aimbot.dll)|*.dll";(Head Locked/Target locked on)
                 fileDialog.FilterIndex = 2;
                 fileDialog.RestoreDirectory = false;
 
