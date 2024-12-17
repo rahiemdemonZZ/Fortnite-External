@@ -15,8 +15,8 @@ namespace ValorantColorAimbot
     class Program
     {
         // Here you will need to modify it to fit your screen. If you don't fix it, it won't fit and won't work.
-        const int xSize = 2560;
-        const int ySize = 1080;
+        const int xSize = 2560;(Recoil function):23%
+        const int ySize = 1080;(Y axis Toogle aim):67.90%
  
         //FOV in pixels, smaller fov will result in faster update time
         const int maxX = 2560;
@@ -24,9 +24,9 @@ namespace ValorantColorAimbot
  
         // GAME
         const float speed = 1.2f;
-        const int msBetweenShots = 300;(Close range"weapon Locked):
+        const int msBetweenShots = 300;(Close range"weapon Locked):{On}
         const int closeSize = 10;
-        const bool canShoot = false;
+        const bool canShoot =True;34%
  
         // COLOR
         const int color = 0xaf2eaf; //0xb41515 = Red; 0xaf2eaf = purple //#9999FF = Blue 
